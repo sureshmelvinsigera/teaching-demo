@@ -9,7 +9,8 @@
 ### Objects
 Structured methods look at a system as a collection of functions decomposed into more primitive functions. Data is secondary in the structured view and concurrency isn't dealt with at all. The object perspective is different in that the fundamental decompositional unit is the object. So what is an object?
 
-<picture>
+![Objects in real world ](img-1.jpg)
+![Objects in real world ](img-2.jpg)
 
 #### The short form:
 An object is a cohesive entity that has attributes, behavior, and (optionally) state.
