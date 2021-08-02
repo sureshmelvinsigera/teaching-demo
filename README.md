@@ -93,8 +93,63 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
     <img src="uml_composition.png" width="100">
 </p>
 
+#### Cardinality
+
+When data modeling methods talk about relationships, they use the term cardinality to indicate how many entities may be linked together.
+
 **Relationships**  are solid lines with cardinality specified at the ends of the lines:
 <p align="center">
     <img src="img-7.png" width="500">
 </p>
 
+To determine cardinality, ask the following questions:
+- Which objects collaborate with which other objects?
+- How many objects participate in each collaboration?
+- Is the collaboration optional or mandatory?
+
+#### Example 
+
+Let's consider the following example. We are creating an Employee class that inherits from Person, and has relationships with the following classes:
+
+- Division
+- JobDescription
+- Spouse
+- Child
+
+What do these classes do? Are they optional? How many does an Employee need?
+
+##### Division
+- This object contains the information relating to the division that the employee works for.
+- Each employee must work for a division, so the relationship is mandatory.
+- The employee works for one, and only one, division.
+
+##### JobDescription
+- This object contains a job description, most likely containing information such as salary grade and salary range.
+- Each employee must have a job description, so the relationship is mandatory.
+- The employee can hold various jobs during the tenure at a company. Thus, an employee can have many job descriptions. 
+- These descriptions can be kept as a history if an employee changes jobs, or it is possible that an employee might hold two different jobs at one time. For example, a supervisor might take on an employee's responsibilities if the employee quits and a replacement has not yet been hired.
+
+
+##### Spouse
+
+- In this simplistic example, the Spouse class contains only the anniversary date.
+- An employee can be married or not married. Thus, a spouse is optional.
+- An employee can have only one spouse.
+
+##### Child
+
+- In this simple example, the Child class contains only the string FavoriteToy .
+- An employee can have children or not have children.
+- An employee can have no children or an infinite number of children (wow!).
+- You could make a design decision as to the upper limit of the number of children that the system can handle.
+
+
+To sum up, we can represents the cardinality of the associations of the classes we just considered.
+
+
+|Optional/Association  | Cardinality| Mandatory |
+|--|--|--|
+|  Employee /  Division | 1 | Mandatory |
+|  Employee /  JobDescription| 1 n | Mandatory |
+|  Employee /  Spouse| 0 1 | Optional|
+|  Employee /  Child| 0 n | Optional |
