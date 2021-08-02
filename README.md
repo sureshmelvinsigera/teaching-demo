@@ -1,3 +1,4 @@
+
 ## Objectives
 
 -   How are objects represented
@@ -36,7 +37,7 @@ In object-oriented programming, the fundamental unit is the object. An object is
 </p>
 
 ### What is a class?
-Classes are the foundation of object-oriented programming (OOP). In other words, classes are abstract templates for objects. You can also say that objects are instances of classes.  A _class_ specifies both the structure and the defined behavior of the objects instantiated from it. All objects of a class have their own copies of the very _same_ set of typed attributes.
+Classes are the foundation of object-oriented programming (OOP). In other words, **classes are abstract templates for objects**. You can also say that objects are instances of classes.  A _class_ specifies both the structure and the defined behavior of the objects instantiated from it. All objects of a class have their own copies of the very _same_ set of typed attributes.
 
 <p align="center">
     <img src="img-1.jpg" width="300">
@@ -47,15 +48,15 @@ Classes are the foundation of object-oriented programming (OOP). In other words,
 ### Inheritance and Composition
 Inheritance and composition play major roles in the design of object-oriented (OO) systems. In fact, many of the most difficult and interesting design decisions come down to deciding between inheritance and composition.
 
-Both inheritance and composition are mechanisms for reuse.  Inheritance, as its name implies, involves inheriting attributes and behaviors from other classes. In this case, there is a true parent/child relationship. The child (or subclass) inherits directly from the parent (or superclass). Inheritance represents the **is-a relationship**, for example, a dog  is a mammal. When inheritance is used, the end result is, at least conceptually, a single class that incorporates all of the behaviors and attributes of the inheritance hierarchy. 
+Both inheritance and composition are mechanisms for reuse.  Inheritance, as its name implies, **involves inheriting attributes and behaviors from other classes**. In this case, there is a true parent/child relationship. The child (or subclass) inherits directly from the parent (or superclass). Inheritance represents the **is-a relationship**, for example, a dog  is a mammal. When inheritance is used, the end result is, at least conceptually, a single class that incorporates all of the behaviors and attributes of the inheritance hierarchy. 
 
 <p align="center">
     <img src="img-4.gif" width="300">
     <br>
     <b>is-a relationship</b>
 </p>
-Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. Basically, complex objects are composed of other objects. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. 
 
+Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. **Basically, complex objects are composed of other objects**. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. 
 
 In fact, a child object might itself be composed of other objects; for example, the engine might include cylinders. In fact, a car contains many objects besides an engine, including wheels, a steering wheel, and a stereo. Whenever a particular object is composed of other objects, and those objects are included as object fields, the new object is known as a compound , an aggregate , or a composite object. When composition is used, several different classes are used to build the target class.
 
