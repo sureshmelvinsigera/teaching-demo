@@ -86,11 +86,11 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
 
 **Composition** is presented as binary association with a black diamond as a symbol of the composition at the end of the association line. A composition specifies that the lifetime of the part entity is dependent on the lifetime of the whole entity.
 <p align="center">
-    <img src="uml_composition" width="100">
+    <img src="uml_composition.png" width="100">
 </p>
 
 **Relationships**  are solid lines with cardinality specified at the ends of the lines:
 <p align="center">
-    <img src="img-7.png" width="100">
+    <img src="img-7.png" width="500">
 </p>
 
