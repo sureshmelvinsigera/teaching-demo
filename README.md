@@ -80,13 +80,13 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
 
 **Aggregation** is shown as binary association with a hollow diamond as a symbol of the aggregation at the end of the association line. The part entity can belong to more than one aggregate classifier and it can exist independently of the aggregate.
 <p align="center">
-    <img src="uml_composition.png" width="100">
+    <img src="uml_aggregation.png" width="100">
 </p>
 
 
 **Composition** is presented as binary association with a black diamond as a symbol of the composition at the end of the association line. A composition specifies that the lifetime of the part entity is dependent on the lifetime of the whole entity.
 <p align="center">
-    <img src="img-19.png" width="100">
+    <img src="uml_composition" width="100">
 </p>
 
 **Relationships**  are solid lines with cardinality specified at the ends of the lines:
