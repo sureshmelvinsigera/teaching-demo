@@ -1,4 +1,8 @@
 
+| Title | Type | Duration | Author | 
+| -- | -- | -- | -- |
+| Java (Backend) Teaching Demo Prompt | Lesson | :40 | Suresh Melvin Sigera |
+
 ## Objectives
 
 -   How are objects represented
