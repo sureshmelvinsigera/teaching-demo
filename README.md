@@ -80,7 +80,7 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
 
 **Aggregation** is shown as binary association with a hollow diamond as a symbol of the aggregation at the end of the association line. The part entity can belong to more than one aggregate classifier and it can exist independently of the aggregate.
 <p align="center">
-    <img src="img-8.png" width="100">
+    <img src="uml_composition.png" width="100">
 </p>
 
 
