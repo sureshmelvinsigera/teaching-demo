@@ -57,7 +57,7 @@ Both inheritance and composition are mechanisms for reuse.  Inheritance, as its 
 Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. Basically, complex objects are composed of other objects. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. In fact, a child object might itself be composed of other objects; for example, the engine might include cylinders. In fact, a car contains many objects besides an engine, including wheels, a steering wheel, and a stereo. Whenever a particular object is composed of other objects, and those objects are included as object fields, the new object is known as a compound , an aggregate , or a composite object. When composition is used, several different classes are used to build the target class.
 
 <p align="center">
-    <img src="img-4.gif" width="300">
+    <img src="img-5.gif width="300">
     <br>
     <b>**has-a relationship**</b>
 </p>
