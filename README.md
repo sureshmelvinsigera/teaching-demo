@@ -1,7 +1,7 @@
 
 | Title | Type | Duration | Author | 
 | -- | -- | -- | -- |
-| Java (Backend) Teaching Demo Prompt | Lesson | :40 | Suresh Melvin Sigera |
+| Java (Backend) Teaching Demo Prompt | Lesson | 00:40 | Suresh Melvin Sigera |
 
 ## Objectives
 
