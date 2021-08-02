@@ -73,11 +73,13 @@ UML, as its name implies, is a modeling language. The UML User Guide defines UML
 
 An aggregation is represented by a line with a diamond at the head. In the car example we can use the UML notation to represent that a steering wheel is part of a car, you use the notation shown below.
 
-<picture>
+In UML, an  **entity** a.ka. class is represented by a rectangle:
 
-In UML, an  **entity**  is represented by a rectangle:
-
-<picture>
+<p align="center">
+    <img src="img-6.png" width="300">
+</p>
 
 **Relationships**  are solid lines with cardinality specified at the ends of the lines:
-
+<p align="center">
+    <img src="img-7.png" width="300">
+</p>
