@@ -9,18 +9,6 @@
 ### Objects
 Structured methods look at a system as a collection of functions decomposed into more primitive functions. Data is secondary in the structured view and concurrency isn't dealt with at all. The object perspective is different in that the fundamental decompositional unit is the object. So what is an object?
 
-<p align="center">
-    <img src="img-2.jpg" width="300">
-    <br>
-    <b>Instance of a class</b>
-</p>
-
-<p align="center">
-    <img src="img-1.jpg" width="300">
-    <br>
-    <b>Instance of a class</b>
-</p>
-
 #### The short form:
 An object is a cohesive entity that has attributes, behavior, and (optionally) state.
 
@@ -33,15 +21,28 @@ Objects represent things that have both data and behavior. Objects may represent
  - Identity
  - Responsibilities
 
-<picture>
-
 In object-oriented programming, the fundamental unit is the object. An object is an entity that serves as a container for data and also controls access to the data. Associated with an object is a set of attributes, which are essentially only variables belonging to the object. Also associated with an object is a set of functions that provide an interface to the functionality of the object, called methods.
+
+<p align="center">
+    <img src="img-2.jpg" width="300">
+    <br>
+    <b>Instance of a class</b>
+</p>
+
+<p align="center">
+    <img src="img-3.jpg" width="300">
+    <br>
+    <b>Instance of a class</b>
+</p>
 
 ### What is a class?
 Classes are the foundation of object-oriented programming (OOP). In other words, classes are abstract templates for objects. You can also say that objects are instances of classes.  A _class_ specifies both the structure and the defined behavior of the objects instantiated from it. All objects of a class have their own copies of the very _same_ set of typed attributes.
 
-<picture>
-
+<p align="center">
+    <img src="img-1.jpg" width="300">
+    <br>
+    <b>Instance of a class</b>
+</p>
 ### Inheritance and Composition
 Inheritance and composition play major roles in the design of object-oriented (OO) systems. In fact, many of the most difficult and interesting design decisions come down to deciding between inheritance and composition.
 
