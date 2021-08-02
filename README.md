@@ -41,8 +41,9 @@ Classes are the foundation of object-oriented programming (OOP). In other words,
 <p align="center">
     <img src="img-1.jpg" width="300">
     <br>
-    <b>Instance of a class</b>
+    <b>Class is a blue print</b>
 </p>
+
 ### Inheritance and Composition
 Inheritance and composition play major roles in the design of object-oriented (OO) systems. In fact, many of the most difficult and interesting design decisions come down to deciding between inheritance and composition.
 
