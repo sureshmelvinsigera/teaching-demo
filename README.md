@@ -54,7 +54,9 @@ Both inheritance and composition are mechanisms for reuse.  Inheritance, as its 
     <br>
     <b>is-a relationship</b>
 </p>
-Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. Basically, complex objects are composed of other objects. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. In fact, a child object might itself be composed of other objects; for example, the engine might include cylinders. In fact, a car contains many objects besides an engine, including wheels, a steering wheel, and a stereo. Whenever a particular object is composed of other objects, and those objects are included as object fields, the new object is known as a compound , an aggregate , or a composite object. When composition is used, several different classes are used to build the target class.
+Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. Basically, complex objects are composed of other objects. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. 
+
+In fact, a child object might itself be composed of other objects; for example, the engine might include cylinders. In fact, a car contains many objects besides an engine, including wheels, a steering wheel, and a stereo. Whenever a particular object is composed of other objects, and those objects are included as object fields, the new object is known as a compound , an aggregate , or a composite object. When composition is used, several different classes are used to build the target class.
 
 <p align="center">
     <img src="img-5.gif" width="300">
@@ -65,7 +67,7 @@ Composition involves using other classes to build more complex classes. There is
 <hr>
 
 ### UML
-UML, as its name implies, is a modeling language. The UML User Guide defines UML as "a graphical language for visualizing, specifying, constructing and documenting the artifacts of a software- intensive system." UML gives you a standard way to write the system's blueprints. In a nutshell , UML offers a way to graphically represent and manipulate an object-oriented (OO) software system. It is not only the representation of the design of a system, but a tool to assist in this design.
+UML, as its name implies, is a modeling language. The UML User Guide defines UML as "a graphical language for visualizing, specifying, constructing and documenting the artifacts of a software-intensive system." UML gives you a standard way to write the system's blueprints. In a nutshell , UML offers a way to graphically represent and manipulate an object-oriented (OO) software system. It is not only the representation of the design of a system, but a tool to assist in this design.
 
 An aggregation is represented by a line with a diamond at the head. In the car example we can use the UML notation to represent that a steering wheel is part of a car, you use the notation shown below.
 
