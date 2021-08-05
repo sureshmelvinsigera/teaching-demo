@@ -84,7 +84,7 @@ Take for example a Page and a Book. The Page cannot exist without the Book, beca
 
 #### Aggregation
 
-With an aggregation, the child can exist independently of the parent. So thinking of a Car and a Drive, the Drive doesn’t need to be destroyed when the Car is destroyed.
+With an aggregation, the child can exist independently of the parent. So thinking of a Car and a Driver, the Driver doesn’t need to be destroyed when the Car is destroyed.
 
 <p align="center">
     <img src="img-5.gif" width="300">
