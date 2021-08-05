@@ -87,9 +87,9 @@ Take for example a Page and a Book. The Page cannot exist without the Book, beca
 With an aggregation, the child can exist independently of the parent. So thinking of a Car and a Driver, the Driver doesn’t need to be destroyed when the Car is destroyed.
 
 <p align="center">
-    <img src="img-5.gif" width="300">
+    <img src="UML_CompositionAggregation.png" width="300">
     <br>
-    <b>UML_CompositionAggregation.png</b>
+    <b>Composition VS Aggregation</b>
 </p>
 
 - Aggregation uses an open diamond
@@ -100,7 +100,7 @@ With an aggregation, the child can exist independently of the parent. So thinkin
 ### UML
 UML, as its name implies, is a modeling language. The UML User Guide defines UML as "a graphical language for visualizing, specifying, constructing and documenting the artifacts of a software-intensive system." UML gives you a standard way to write the system's blueprints. In a nutshell , UML offers a way to graphically represent and manipulate an object-oriented (OO) software system. It is not only the representation of the design of a system, but a tool to assist in this design.
 
-In UML, an  **entity** a.ka. class is represented by a rectangle:
+In UML, an **entity** a.ka. class is represented by a rectangle:
 
 <p align="center">
     <img src="img-6.png" width="100">
