@@ -78,19 +78,22 @@ There are two sub-types of Association relationships — Aggregation and Composi
 
 #### Composition
 
-Composition implies that the contained class cannot exist independently of the container. If the container is destroyed, the child is also destroyed.
+Composition implies that the contained class cannot exist independently of the container (Class A owns Class B). If the container is destroyed, the child is also destroyed.
 
 Take for example a Page and a Book. The Page cannot exist without the Book, because the book is composed of Pages. If the Book is destroyed, the Page is also destroyed.
 
 #### Aggregation
 
-With an aggregation, the child can exist independently of the parent.
-So thinking of a Car and an Engine, the Engine doesn’t need to be destroyed when the Car is destroyed.
+With an aggregation, the child can exist independently of the parent. So thinking of a Car and a Drive, the Drive doesn’t need to be destroyed when the Car is destroyed.
 
-Composition implies that the contained class cannot exist independently of the container. If the container is destroyed, the child is also destroyed.
-Take for example a Page and a Book. The Page cannot exist without the Book, because the book is composed of Pages. If the Book is destroyed, the Page is also destroyed.
+<p align="center">
+    <img src="img-5.gif" width="300">
+    <br>
+    <b>UML_CompositionAggregation.png</b>
+</p>
 
-
+- Aggregation uses an open diamond
+- Composition uses a closed diamond
 
 <hr>
 
