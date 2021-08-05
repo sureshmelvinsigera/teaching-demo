@@ -170,3 +170,10 @@ To sum up, we can represents the cardinality of the associations of the classes 
 <p align="center">
     <img src="we-do.gif" width="700">
 </p>
+
+
+### Q&A
+
+<p align="center">
+    <img src="https://media.giphy.com/media/XylolcrfscSW0SnYl8/giphy.gif" width="400">
+</p>
