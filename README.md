@@ -165,7 +165,7 @@ To sum up, we can represents the cardinality of the associations of the classes 
 |  Employee /  Spouse| 0 1 | Optional|
 |  Employee /  Child| 0 n | Optional |
 
-#### We do
+### Class activity - Hands on UML
 
 <p align="center">
     <img src="we-do.gif" width="700">
