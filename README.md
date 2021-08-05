@@ -143,9 +143,7 @@ What do these classes do? Are they optional? How many does an Employee need?
 - An employee can have no children or an infinite number of children (wow!).
 - You could make a design decision as to the upper limit of the number of children that the system can handle.
 
-
 To sum up, we can represents the cardinality of the associations of the classes we just considered.
-
 
 |Optional/Association  | Cardinality| Mandatory |
 |--|--|--|
@@ -153,3 +151,9 @@ To sum up, we can represents the cardinality of the associations of the classes 
 |  Employee /  JobDescription| 1 n | Mandatory |
 |  Employee /  Spouse| 0 1 | Optional|
 |  Employee /  Child| 0 n | Optional |
+
+#### We do
+
+<p align="center">
+    <img src="we-do.gif" width="700">
+</p>
