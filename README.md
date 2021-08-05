@@ -49,10 +49,10 @@ Classes are the foundation of object-oriented programming (OOP). In other words,
     <b>Class is a blue print</b>
 </p>
 
-### Inheritance and Composition
-Inheritance and composition play major roles in the design of object-oriented (OO) systems. In fact, many of the most difficult and interesting design decisions come down to deciding between inheritance and composition.
+### Inheritance and Association
+Inheritance and association play major roles in the design of object-oriented (OO) systems. In fact, many of the most difficult and interesting design decisions come down to deciding between inheritance and association.
 
-Both inheritance and composition are mechanisms for reuse.  Inheritance, as its name implies, **involves inheriting attributes and behaviors from other classes**. In this case, there is a true parent/child relationship. The child (or subclass) inherits directly from the parent (or superclass). Inheritance represents the **is-a relationship**, for example, a dog  is a mammal. When inheritance is used, the end result is, at least conceptually, a single class that incorporates all of the behaviors and attributes of the inheritance hierarchy. 
+Both inheritance and association are mechanisms for reuse.  Inheritance, as its name implies, **involves inheriting attributes and behaviors from other classes**. In this case, there is a true parent/child relationship. The child (or subclass) inherits directly from the parent (or superclass). Inheritance represents the **is-a relationship**, for example, a dog  is a mammal. When inheritance is used, the end result is, at least conceptually, a single class that incorporates all of the behaviors and attributes of the inheritance hierarchy. 
 
 <p align="center">
     <img src="img-4.gif" width="300">
@@ -60,15 +60,37 @@ Both inheritance and composition are mechanisms for reuse.  Inheritance, as its 
     <b>is-a relationship</b>
 </p>
 
-Composition involves using other classes to build more complex classes. There is no parent/child relationship in this case. **Basically, complex objects are composed of other objects**. Composition represents a **has-a relationship**. For example, a car  has an engine. Both the engine and the car are standalone objects. However, the car is a complex object that contains (has an) engine object. 
-
-In fact, a child object might itself be composed of other objects; for example, the engine might include cylinders. In fact, a car contains many objects besides an engine, including wheels, a steering wheel, and a stereo. Whenever a particular object is composed of other objects, and those objects are included as object fields, the new object is known as a compound , an aggregate , or a composite object. When composition is used, several different classes are used to build the target class.
+Association involves using other classes to build more complex classes. There is no parent/child relationship in this case. **Basically, complex objects are composed of other objects**. Association represents a **has-a relationship**. 
 
 <p align="center">
     <img src="img-5.gif" width="300">
     <br>
     <b>has-a relationship</b>
 </p>
+
+For example:
+- A Car has an Engine and a Wheel
+- A Person has a Leg and an Arm
+- A Book has Pages
+
+### What’s the difference between Aggregation and Composition?
+There are two sub-types of Association relationships — Aggregation and Composition. What’s the difference between these two?
+
+#### Composition
+
+Composition implies that the contained class cannot exist independently of the container. If the container is destroyed, the child is also destroyed.
+
+Take for example a Page and a Book. The Page cannot exist without the Book, because the book is composed of Pages. If the Book is destroyed, the Page is also destroyed.
+
+#### Aggregation
+
+With an aggregation, the child can exist independently of the parent.
+So thinking of a Car and an Engine, the Engine doesn’t need to be destroyed when the Car is destroyed.
+
+Composition implies that the contained class cannot exist independently of the container. If the container is destroyed, the child is also destroyed.
+Take for example a Page and a Book. The Page cannot exist without the Book, because the book is composed of Pages. If the Book is destroyed, the Page is also destroyed.
+
+
 
 <hr>
 
@@ -83,15 +105,11 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
 
 
 **Aggregation** is shown as binary association with a hollow diamond as a symbol of the aggregation at the end of the association line. The part entity can belong to more than one aggregate classifier and it can exist independently of the aggregate.
-<p align="center">
-    <img src="uml_aggregation.png" width="100">
-</p>
+
 
 
 **Composition** is presented as binary association with a black diamond as a symbol of the composition at the end of the association line. A composition specifies that the lifetime of the part entity is dependent on the lifetime of the whole entity.
-<p align="center">
-    <img src="uml_composition.png" width="100">
-</p>
+
 
 #### Cardinality
 
