@@ -106,14 +106,6 @@ In UML, an  **entity** a.ka. class is represented by a rectangle:
     <img src="img-6.png" width="100">
 </p>
 
-
-**Aggregation** is shown as binary association with a hollow diamond as a symbol of the aggregation at the end of the association line. The part entity can belong to more than one aggregate classifier and it can exist independently of the aggregate.
-
-
-
-**Composition** is presented as binary association with a black diamond as a symbol of the composition at the end of the association line. A composition specifies that the lifetime of the part entity is dependent on the lifetime of the whole entity.
-
-
 #### Cardinality
 
 When data modeling methods talk about relationships, they use the term cardinality to indicate how many entities may be linked together.
