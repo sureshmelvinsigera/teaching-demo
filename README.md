@@ -9,7 +9,7 @@
 -   How are objects represented
 -   How to show relationships between objects
 -   How to show cardinality
--   Demonstrate how to implement OOP techniques such as inheritance and polymorphism
+-   Demonstrate how to implement OOP techniques such as inheritance
 -   Employ the SOLID design patterns to follow OOP best practices
 
 ### Objects
