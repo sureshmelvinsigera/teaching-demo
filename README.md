@@ -54,7 +54,7 @@ Inheritance and association play major roles in the design of object-oriented (O
 Both inheritance and association are mechanisms for reuse.  Inheritance, as its name implies, **involves inheriting attributes and behaviors from other classes**. In this case, there is a true parent/child relationship. The child (or subclass) inherits directly from the parent (or superclass). Inheritance represents the **is-a relationship**, for example, a dog  is a mammal. When inheritance is used, the end result is, at least conceptually, a single class that incorporates all of the behaviors and attributes of the inheritance hierarchy. 
 
 <p align="center">
-    <img src="img-4.gif" width="300">
+    <img src="img-4.gif" width="600">
     <br>
     <b>is-a relationship</b>
 </p>
@@ -62,7 +62,7 @@ Both inheritance and association are mechanisms for reuse.  Inheritance, as its 
 Association involves using other classes to build more complex classes. There is no parent/child relationship in this case. **Basically, complex objects are composed of other objects**. Association represents a **has-a relationship**. 
 
 <p align="center">
-    <img src="img-5.gif" width="300">
+    <img src="img-5.gif" width="600">
     <br>
     <b>has-a relationship</b>
 </p>
