@@ -1,7 +1,7 @@
 
 | Title | Type | Duration | Author | 
 | -- | -- | -- | -- |
-| Java (Backend) Teaching Demo Prompt | Lesson | 00:40 | Suresh Melvin Sigera |
+| UML diagramming | Lesson | 2:00 | Suresh Melvin Sigera |
 
 # UML diagramming
 ## Objectives
